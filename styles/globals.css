@@ -40,3 +40,38 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+button:hover {
+  border: 1px solid var(--hover-color, #32312D66);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:focus-visible {
+  border-block-end: 1px solid var(--bg-color, #000028);
+}
+
+a {
+  text-decoration: none;
+  text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
+}
+
+a:hover {
+  border-block-end: 1px solid var(--paragraph-color, #F1B2CE);
+}
+
+a:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: 1px solid var(--paragraph-color, #F1B2CE);
+}
