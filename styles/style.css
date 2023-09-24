@@ -250,14 +250,10 @@
   }
 
   .section {
-    padding-block-end: 80px;
-  }
-
-  .section {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 2fr;
-    
+    padding-block-end: 80px;
   }
   .section_three-rows {
     display: flex;
