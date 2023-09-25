@@ -14,9 +14,10 @@
   --accent-color: #FF8DCB;
   --paragraph-color: #353430;
   --title-color: #FFC2E6;
-  --main-font: 'IBM Plex Mono', Arial, sans-serif;
-  --font-size: 18px;
   --hover-color: #FF007066;
+  --section-title-color: #353430;
+  --article-title-color: #353430;
+  --title-shadow-mobile: #FF8DCB;
   --decor-element-visibility: hidden;
 }
 
@@ -27,8 +28,6 @@
     --accent-color: #FF8DCB;
     --paragraph-color: #353430;
     --title-color: #FFC2E6;
-    --main-font: 'IBM Plex Mono', Arial, sans-serif;
-    --font-size: 18px;
     --hover-color: #FF007066;
     --decor-element-visibility: hidden;
   }

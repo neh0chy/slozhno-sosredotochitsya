@@ -14,8 +14,9 @@
   --accent-color: #FF0070;
   --paragraph-color: #F1B2CE;
   --title-color: #DB00FF;
-  --main-font: 'IBM Plex Mono', Arial, sans-serif;
-  --font-size: 18px;
   --hover-color: #32312D66;
+  --section-title-color: #FF0070;
+  --article-title-color: #000028;
+  --title-shadow-mobile: #FF0070;
   --decor-element-visibility: visible;
 }

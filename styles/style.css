@@ -100,7 +100,7 @@
 
 .header__title {
   color: var(--title-color);
-  text-shadow: 4px 4px 0px var(--accent-color, #FF0070);
+  text-shadow: 4px 4px 0px var(--title-shadow-mobile, #FF0070);
   font-family: var(--main-font);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-style: normal;
@@ -109,7 +109,7 @@
 }
 
 .header__subtitle {
-  color: var(--bg-color, #000028);
+  color: var(--article-title-color, #000028);
   background-color: var(--accent-color, #FF0070);
   font-family: var(--main-font);
   font-style: normal;
@@ -126,7 +126,7 @@
 
 .section__title {
   padding-block-end: 20px;
-  color: var(--accent-color, #FF0070);
+  color: var(--section-title-color, #FF0070);
   font-family: var(--main-font);
   font-size: inherit;
   font-style: normal;
@@ -143,7 +143,7 @@
 }
 
 .section__article-title {
-  color: var(--bg-color, #000028);
+  color: var(--article-title-color, #000028);
   background-color: var(--accent-color, #FF0070);
   font-family: var(--main-font);
   font-size: inherit;
@@ -172,7 +172,7 @@
 }
 
 .gallery__title {
-  color: var(--bg-color, #000028);
+  color: var(--article-title-color, #000028);
   background-color: var(--accent-color, #FF0070);
   font-family: var(--main-font, monospace);
   font-style: normal;
@@ -204,7 +204,7 @@
 
 .footer__title {
   color: var(--title-color, #DB00FF);
-  text-shadow: 2px 2px 0px var(--accent-color, #FF0070);
+  text-shadow: 2px 2px 0px var(--title-shadow-mobile, #FF0070);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: bold;
   line-height: 82.5%;
@@ -311,6 +311,11 @@
 }
 
 @media (width >= 1024px) {
+
+  .header__title {
+    text-shadow: 4px 4px 0px var(--title-shadow-desktop, #FF0070);
+  }
+
   .header__theme-menu {
     justify-self: center;
     align-self: start;
@@ -332,6 +337,10 @@
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer__title {
+    text-shadow: 2px 2px 0px var(--title-shadow-desktop, #FF0070);
   }
 
 }
