@@ -18,6 +18,7 @@
   --section-title-color: #353430;
   --article-title-color: #353430;
   --title-shadow-mobile: #FF8DCB;
+  --focus-visible: #353430;
   --decor-element-visibility: hidden;
 }
 
@@ -32,6 +33,7 @@
     --section-title-color: #353430;
     --article-title-color: #353430;
     --title-shadow-mobile: #FF8DCB;
+    --focus-visible: #353430;
     --decor-element-visibility: hidden;
   }
 }
