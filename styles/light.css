@@ -14,7 +14,7 @@
   --accent-color: #FF8DCB;
   --paragraph-color: #353430;
   --title-color: #FFC2E6;
-  --hover-color: #FF007066;
+  --hover-color: rgba(50, 49, 45, 0.40);
   --section-title-color: #353430;
   --article-title-color: #353430;
   --title-shadow-mobile: #FF8DCB;
@@ -28,7 +28,10 @@
     --accent-color: #FF8DCB;
     --paragraph-color: #353430;
     --title-color: #FFC2E6;
-    --hover-color: #FF007066;
+    --hover-color: rgba(50, 49, 45, 0.40);
+    --section-title-color: #353430;
+    --article-title-color: #353430;
+    --title-shadow-mobile: #FF8DCB;
     --decor-element-visibility: hidden;
   }
 }

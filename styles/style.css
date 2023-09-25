@@ -84,7 +84,7 @@
 }
 
 .header__theme-menu-button {
-  color: var(--accent-color, #FF0070);
+  color: var(--section-title-color, #FF0070);
   font-family: var(--main-font, monospace);
   font-size: inherit;
   font-weight: 400;
@@ -94,7 +94,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color, #FF0070);
+  border: 1px solid var(--section-title-color, #FF0070);
   pointer-events: none;
 }
 
@@ -255,6 +255,7 @@
     grid-template-columns: 1fr 2fr;
     padding-block-end: 80px;
   }
+
   .section_three-rows {
     display: flex;
     flex-direction: column;
@@ -310,7 +311,7 @@
   }
 }
 
-@media (width >= 1024px) {
+@media (width >=1024px) {
 
   .header__title {
     text-shadow: 4px 4px 0px var(--title-shadow-desktop, #FF0070);
@@ -332,7 +333,7 @@
   .section__title_three-rows {
     padding-block-end: 10px;
   }
-  
+
   .section__wrapper-three-rows {
     display: grid;
     gap: 20px;

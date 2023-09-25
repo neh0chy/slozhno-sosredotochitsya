@@ -11,7 +11,7 @@
   --title-color: #DB00FF;
   --main-font: 'IBM Plex Mono', Arial, sans-serif;
   --font-size: 18px;
-  --hover-color: #32312D66;
+  --hover-color: rgba(255, 0, 112, 0.40);
   --section-title-color: #FF0070;
   --article-title-color: #000028;
   --title-shadow-desktop: #FF0070;
