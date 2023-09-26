@@ -17,5 +17,7 @@
   --title-shadow-desktop: #FF0070;
   --title-shadow-mobile: #FF0070;
   --focus-visible: #FF0070;
+  --corners-color: #FF0070;
+  --article-title-bold: 400;
   --decor-element-visibility: visible;
 }

@@ -34,26 +34,8 @@
     --article-title-color: #353430;
     --title-shadow-mobile: #FF8DCB;
     --focus-visible: #353430;
+    --corners-color: #353430;
+    --article-title-bold: 700;
     --decor-element-visibility: hidden;
-  }
-
-  /* Ниже использован другой подход, не такой как во всём проекте, но в пачке его обсуждали и я решил на этих элементах попробовать */
-
-  .decorated-zone::before {
-    border-inline-end: 1px solid var(--paragraph-color, #353430);
-    border-block-start: 1px solid var(--paragraph-color, #353430);
-  }
-
-  .decorated-zone::after {
-    border-inline-start: 1px solid var(--paragraph-color, #353430);
-    border-block-end: 1px solid var(--paragraph-color, #353430);
-  }
-
-  .section:nth-of-type(1) .section__article-title {
-    font-weight: 700;
-  }
-
-  .section:nth-of-type(2) .section__article-title {
-    font-weight: 700;
   }
 }
