@@ -68,8 +68,8 @@
   block-size: 25px;
   inset-inline-start: 10px;
   inset-block-end: 10px;
-  border-inline-start: 1px solid var(--accent-color, #FF0070);
-  border-block-end: 1px solid var(--accent-color, #FF0070);
+  border-inline-start: 1px solid var(--corners-color, #FF0070);
+  border-block-end: 1px solid var(--corners-color, #FF0070);
 }
 
 .header__theme-menu {
